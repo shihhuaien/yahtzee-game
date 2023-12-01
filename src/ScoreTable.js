@@ -8,7 +8,7 @@ class ScoreTable extends Component {
 
   totalScore() {
     let sum = 0;
-    Object.values(this.props.scores).map(score => {
+    Object.values(this.props.scores).forEach(score => {
       if (score) {
         sum += score
       }

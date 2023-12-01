@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
